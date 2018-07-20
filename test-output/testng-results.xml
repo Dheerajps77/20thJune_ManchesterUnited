@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login And ForgetPassword Module" duration-ms="87277" started-at="2018-07-20T11:37:54Z" finished-at="2018-07-20T11:39:22Z">
+    <groups>
+    </groups>
+    <test name="Login And ForgetPassword" duration-ms="87277" started-at="2018-07-20T11:37:54Z" finished-at="2018-07-20T11:39:22Z">
+      <class name="com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass">
+        <test-method status="PASS" signature="InvokeBroswer()[pri:0, instance:com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass@536aaa8d]" name="InvokeBroswer" is-config="true" duration-ms="35880" started-at="2018-07-20T11:37:54Z" finished-at="2018-07-20T11:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBroswer -->
+        <test-method status="PASS" signature="LoginPageModuletest()[pri:0, instance:com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass@536aaa8d]" name="LoginPageModuletest" duration-ms="14586" started-at="2018-07-20T11:38:30Z" finished-at="2018-07-20T11:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageModuletest -->
+        <test-method status="PASS" signature="LogOUt()[pri:0, instance:com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass@536aaa8d]" name="LogOUt" duration-ms="34181" started-at="2018-07-20T11:38:45Z" depends-on-methods="com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass.LoginPageModuletest" finished-at="2018-07-20T11:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOUt -->
+        <test-method status="PASS" signature="CloseBroswer()[pri:0, instance:com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass@536aaa8d]" name="CloseBroswer" is-config="true" duration-ms="2558" started-at="2018-07-20T11:39:19Z" finished-at="2018-07-20T11:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+      </class> <!-- com.ManchesterUnitedKingdom.TestClass.LoginAndForgetPasswordClass -->
+    </test> <!-- Login And ForgetPassword -->
+  </suite> <!-- Login And ForgetPassword Module -->
+</testng-results>
